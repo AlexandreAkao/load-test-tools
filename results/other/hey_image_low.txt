@@ -1,0 +1,48 @@
+
+Summary:
+  Total:	304.4037 secs
+  Slowest:	30.0036 secs
+  Fastest:	0.0937 secs
+  Average:	0.4863 secs
+  Requests/sec:	2028.1327
+  
+  Total data:	4994148682 bytes
+  Size/request:	8089 bytes
+
+Response time histogram:
+  0.094 [1]	|
+  3.085 [611481]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  6.076 [4691]	|
+  9.067 [821]	|
+  12.058 [188]	|
+  15.049 [76]	|
+  18.040 [36]	|
+  21.031 [22]	|
+  24.022 [16]	|
+  27.013 [8]	|
+  30.004 [29]	|
+
+
+Latency distribution:
+  10% in 0.1190 secs
+  25% in 0.1263 secs
+  50% in 0.2439 secs
+  75% in 0.6092 secs
+  90% in 1.1117 secs
+  95% in 1.5408 secs
+  99% in 3.0389 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0011 secs, 0.0937 secs, 30.0036 secs
+  DNS-lookup:	0.0003 secs, 0.0000 secs, 0.1845 secs
+  req write:	0.0000 secs, 0.0000 secs, 0.0372 secs
+  resp wait:	0.2825 secs, 0.0925 secs, 25.3493 secs
+  resp read:	0.1998 secs, 0.0000 secs, 29.8898 secs
+
+Status code distribution:
+  [200]	617323 responses
+  [502]	46 responses
+
+Error distribution:
+  [2]	Get "https://httpbin.org/image": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+

@@ -1,0 +1,97 @@
+
+Summary:
+  Total:	182.4603 secs
+  Slowest:	20.6016 secs
+  Fastest:	0.0225 secs
+  Average:	3.6630 secs
+  Requests/sec:	54.5215
+  
+
+Response time histogram:
+  0.022 [1]	|
+  2.080 [160]	|■
+  4.138 [7946]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  6.196 [1292]	|■■■■■■■
+  8.254 [290]	|■
+  10.312 [122]	|■
+  12.370 [37]	|
+  14.428 [0]	|
+  16.486 [0]	|
+  18.544 [6]	|
+  20.602 [41]	|
+
+
+Latency distribution:
+  10% in 2.6377 secs
+  25% in 2.8390 secs
+  50% in 3.4209 secs
+  75% in 3.9944 secs
+  90% in 4.5121 secs
+  95% in 6.1971 secs
+  99% in 9.5324 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0007 secs, 0.0225 secs, 20.6016 secs
+  DNS-lookup:	0.0002 secs, 0.0000 secs, 0.0182 secs
+  req write:	0.0001 secs, 0.0000 secs, 0.0036 secs
+  resp wait:	3.6521 secs, 0.0129 secs, 20.5505 secs
+  resp read:	0.0101 secs, 0.0001 secs, 0.4861 secs
+
+Status code distribution:
+  [200]	9895 responses
+
+Error distribution:
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53230->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53231->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53232->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53233->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53234->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53235->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53236->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53237->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53238->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53239->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53240->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53241->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53242->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53243->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53244->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53245->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53246->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53247->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53248->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53249->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53250->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53251->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53252->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53253->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53254->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53255->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53256->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53257->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53258->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53259->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53260->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53261->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53262->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53263->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53264->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53265->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53266->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53267->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53268->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53269->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53270->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53271->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53272->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53273->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53274->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53275->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53276->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53277->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53278->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53279->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53280->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53281->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/stream/20": read tcp [::1]:53282->[::1]:80: read: connection reset by peer
+

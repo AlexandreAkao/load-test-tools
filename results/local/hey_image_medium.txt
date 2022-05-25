@@ -1,0 +1,101 @@
+
+Summary:
+  Total:	180.2327 secs
+  Slowest:	0.9931 secs
+  Fastest:	0.0022 secs
+  Average:	0.1953 secs
+  Requests/sec:	1023.6931
+  
+  Total data:	1492184320 bytes
+  Size/request:	8090 bytes
+
+Response time histogram:
+  0.002 [1]	|
+  0.101 [244]	|
+  0.200 [132376]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.299 [38828]	|■■■■■■■■■■■■
+  0.399 [8566]	|■■■
+  0.498 [3656]	|■
+  0.597 [469]	|
+  0.696 [101]	|
+  0.795 [29]	|
+  0.894 [30]	|
+  0.993 [148]	|
+
+
+Latency distribution:
+  10% in 0.1501 secs
+  25% in 0.1576 secs
+  50% in 0.1724 secs
+  75% in 0.2064 secs
+  90% in 0.2651 secs
+  95% in 0.3398 secs
+  99% in 0.4442 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0000 secs, 0.0022 secs, 0.9931 secs
+  DNS-lookup:	0.0000 secs, 0.0000 secs, 0.0055 secs
+  req write:	0.0000 secs, 0.0000 secs, 0.0017 secs
+  resp wait:	0.1952 secs, 0.0021 secs, 0.9930 secs
+  resp read:	0.0000 secs, 0.0000 secs, 0.0114 secs
+
+Status code distribution:
+  [200]	184448 responses
+
+Error distribution:
+  [1]	Get "http://localhost/image": read tcp [::1]:60004->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60005->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60006->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60007->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60008->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60009->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60010->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60011->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60012->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60013->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60014->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60015->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60016->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60017->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60018->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60019->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60020->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60021->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60022->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60023->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60024->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60025->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60026->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60027->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60028->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60029->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60030->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60031->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60032->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60033->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60034->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60035->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60036->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60037->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60038->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60039->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60040->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60041->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60042->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60043->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60044->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60045->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60046->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60047->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60048->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60049->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60050->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60051->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60052->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60053->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60054->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60055->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60056->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60057->[::1]:80: read: connection reset by peer
+  [1]	Get "http://localhost/image": read tcp [::1]:60058->[::1]:80: read: connection reset by peer
+

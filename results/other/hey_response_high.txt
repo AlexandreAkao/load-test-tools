@@ -1,0 +1,74 @@
+
+Summary:
+  Total:	320.3034 secs
+  Slowest:	30.0052 secs
+  Fastest:	0.0941 secs
+  Average:	1.2117 secs
+  Requests/sec:	3863.5310
+  
+  Total data:	115390888 bytes
+  Size/request:	115 bytes
+
+Response time histogram:
+  0.094 [1]	|
+  3.085 [935622]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  6.076 [36361]	|■■
+  9.067 [11641]	|
+  12.059 [5266]	|
+  15.050 [4004]	|
+  18.041 [1904]	|
+  21.032 [1153]	|
+  24.023 [1873]	|
+  27.014 [1336]	|
+  30.005 [839]	|
+
+
+Latency distribution:
+  10% in 0.1266 secs
+  25% in 0.1412 secs
+  50% in 0.2724 secs
+  75% in 0.9082 secs
+  90% in 2.0825 secs
+  95% in 3.6098 secs
+  99% in 12.5662 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0017 secs, 0.0941 secs, 30.0052 secs
+  DNS-lookup:	0.0011 secs, 0.0000 secs, 0.9129 secs
+  req write:	0.0000 secs, 0.0000 secs, 0.4166 secs
+  resp wait:	1.1800 secs, 0.0940 secs, 29.9999 secs
+  resp read:	0.0037 secs, 0.0000 secs, 29.8800 secs
+
+Status code distribution:
+  [200]	999948 responses
+  [502]	52 responses
+
+Error distribution:
+  [83]	Post "https://httpbin.org/response-headers?modelo=avaliacao": EOF
+  [9848]	Post "https://httpbin.org/response-headers?modelo=avaliacao": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+  [7]	Post "https://httpbin.org/response-headers?modelo=avaliacao": http: server closed idle connection
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:49654->35.169.55.235:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:50733->18.215.122.215:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:50773->18.215.122.215:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:52184->35.169.55.235:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:52695->18.215.122.215:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:53613->18.215.122.215:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:53817->18.215.122.215:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:54218->18.215.122.215:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:54275->18.215.122.215:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:54417->18.215.122.215:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:54419->18.215.122.215:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:54423->18.215.122.215:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:55511->72.44.59.17:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:55788->18.215.122.215:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:56363->18.215.122.215:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:56378->18.215.122.215:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:57570->18.215.122.215:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:58522->18.215.122.215:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:60104->35.169.55.235:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:60392->18.215.122.215:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:63217->18.215.122.215:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:64750->18.215.122.215:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:64943->18.215.122.215:443: read: connection reset by peer
+  [1]	Post "https://httpbin.org/response-headers?modelo=avaliacao": read tcp 10.50.39.53:65372->18.215.122.215:443: read: connection reset by peer
+
